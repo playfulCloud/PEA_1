@@ -6,8 +6,12 @@
 #define PEA_1_FILEREADER_H
 
 
-class FileReader {
+#include <string>
+#include "../CityMatrix/Matrix.h"
 
+class FileReader {
+public:
+    Matrix readFromFile();
 };
 
 

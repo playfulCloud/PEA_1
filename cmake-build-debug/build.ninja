@@ -91,6 +91,18 @@ build CMakeFiles/PEA_1.dir/PEA_1/Algorithms/DynamicProgramming/DynamicProgrammin
   OBJECT_DIR = CMakeFiles\PEA_1.dir
   OBJECT_FILE_DIR = CMakeFiles\PEA_1.dir\PEA_1\Algorithms\DynamicProgramming
 
+build CMakeFiles/PEA_1.dir/PEA_1/Utils/RandomGenerator/Generator.cpp.obj: CXX_COMPILER__PEA_1_Debug C$:/Users/Jakub/CLionProjects/PEA_1/PEA_1/Utils/RandomGenerator/Generator.cpp || cmake_object_order_depends_target_PEA_1
+  DEP_FILE = CMakeFiles\PEA_1.dir\PEA_1\Utils\RandomGenerator\Generator.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always -std=gnu++17
+  OBJECT_DIR = CMakeFiles\PEA_1.dir
+  OBJECT_FILE_DIR = CMakeFiles\PEA_1.dir\PEA_1\Utils\RandomGenerator
+
+build CMakeFiles/PEA_1.dir/PEA_1/Utils/CityMatrix/Matrix.cpp.obj: CXX_COMPILER__PEA_1_Debug C$:/Users/Jakub/CLionProjects/PEA_1/PEA_1/Utils/CityMatrix/Matrix.cpp || cmake_object_order_depends_target_PEA_1
+  DEP_FILE = CMakeFiles\PEA_1.dir\PEA_1\Utils\CityMatrix\Matrix.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always -std=gnu++17
+  OBJECT_DIR = CMakeFiles\PEA_1.dir
+  OBJECT_FILE_DIR = CMakeFiles\PEA_1.dir\PEA_1\Utils\CityMatrix
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target PEA_1
@@ -99,7 +111,7 @@ build CMakeFiles/PEA_1.dir/PEA_1/Algorithms/DynamicProgramming/DynamicProgrammin
 #############################################
 # Link the executable PEA_1.exe
 
-build PEA_1.exe: CXX_EXECUTABLE_LINKER__PEA_1_Debug CMakeFiles/PEA_1.dir/main.cpp.obj CMakeFiles/PEA_1.dir/PEA_1/Utils/Presentation/Menu.cpp.obj CMakeFiles/PEA_1.dir/PEA_1/Utils/Reader/FileReader.cpp.obj CMakeFiles/PEA_1.dir/PEA_1/Utils/Timer/TimeCounter.cpp.obj CMakeFiles/PEA_1.dir/PEA_1/Algorithms/BruteForce/BruteForce_Implementation.cpp.obj CMakeFiles/PEA_1.dir/PEA_1/Algorithms/BranchAndBound/BranchAndBound_Implementation.cpp.obj CMakeFiles/PEA_1.dir/PEA_1/Algorithms/DynamicProgramming/DynamicProgramming_implementation.cpp.obj
+build PEA_1.exe: CXX_EXECUTABLE_LINKER__PEA_1_Debug CMakeFiles/PEA_1.dir/main.cpp.obj CMakeFiles/PEA_1.dir/PEA_1/Utils/Presentation/Menu.cpp.obj CMakeFiles/PEA_1.dir/PEA_1/Utils/Reader/FileReader.cpp.obj CMakeFiles/PEA_1.dir/PEA_1/Utils/Timer/TimeCounter.cpp.obj CMakeFiles/PEA_1.dir/PEA_1/Algorithms/BruteForce/BruteForce_Implementation.cpp.obj CMakeFiles/PEA_1.dir/PEA_1/Algorithms/BranchAndBound/BranchAndBound_Implementation.cpp.obj CMakeFiles/PEA_1.dir/PEA_1/Algorithms/DynamicProgramming/DynamicProgramming_implementation.cpp.obj CMakeFiles/PEA_1.dir/PEA_1/Utils/RandomGenerator/Generator.cpp.obj CMakeFiles/PEA_1.dir/PEA_1/Utils/CityMatrix/Matrix.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\PEA_1.dir

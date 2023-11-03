@@ -1,0 +1,23 @@
+# ninja log v5
+5	955	7206743929848433	CMakeFiles/PEA_1.dir/PEA_1/Utils/Reader/FileReader.cpp.obj	29c5108703d7a530
+17	757	7206740418931820	CMakeFiles/PEA_1.dir/PEA_1/Utils/RandomGenerator/Generator.cpp.obj	68f914f4e1212370
+21	898	7206661587570945	CMakeFiles/PEA_1.dir/PEA_1/Algorithms/BruteForce/BruteForce_Implementation.cpp.obj	7e4ed11f9d8d0065
+32	910	7206661587570945	CMakeFiles/PEA_1.dir/PEA_1/Algorithms/DynamicProgramming/DynamicProgramming_implementation.cpp.obj	121f315f3d36861e
+13	741	7206740418783053	CMakeFiles/PEA_1.dir/PEA_1/Utils/Presentation/Menu.cpp.obj	9683eb143f28bba9
+26	911	7206661587570945	CMakeFiles/PEA_1.dir/PEA_1/Utils/Timer/TimeCounter.cpp.obj	e5e51f7ffa4ff753
+893	1007	7206661588747802	CMakeFiles/PEA_1.dir/PEA_1/Algorithms/BranchAndBound/BranchAndBound_Implementation.cpp.obj	56218b47dcf69af9
+10	844	7206733954854769	CMakeFiles/PEA_1.dir/main.cpp.obj	85764f501ee3ae17
+956	1564	7206743935868884	PEA_1.exe	c9ad00ca5d42e7dc
+21	1387	7206707890094386	CMakeFiles/PEA_1.dir/PEA_1/Utils/CityMatrix/Matrix.cpp.obj	908ef9968adbf08c
+5	956	7206744462261432	CMakeFiles/PEA_1.dir/PEA_1/Utils/Reader/FileReader.cpp.obj	29c5108703d7a530
+957	1589	7206744468520150	PEA_1.exe	c9ad00ca5d42e7dc
+4	924	7206745152422754	CMakeFiles/PEA_1.dir/PEA_1/Utils/Reader/FileReader.cpp.obj	29c5108703d7a530
+924	1568	7206745158793416	PEA_1.exe	c9ad00ca5d42e7dc
+4	935	7206745289867727	CMakeFiles/PEA_1.dir/PEA_1/Utils/Reader/FileReader.cpp.obj	29c5108703d7a530
+936	1573	7206745296193889	PEA_1.exe	c9ad00ca5d42e7dc
+5	971	7206745610696887	CMakeFiles/PEA_1.dir/PEA_1/Utils/Reader/FileReader.cpp.obj	29c5108703d7a530
+972	1583	7206745616751371	PEA_1.exe	c9ad00ca5d42e7dc
+4	975	7206746305540442	CMakeFiles/PEA_1.dir/PEA_1/Utils/Reader/FileReader.cpp.obj	29c5108703d7a530
+975	1639	7206746312129436	PEA_1.exe	c9ad00ca5d42e7dc
+5	983	7206746581800694	CMakeFiles/PEA_1.dir/PEA_1/Utils/Reader/FileReader.cpp.obj	29c5108703d7a530
+984	1633	7206746588225970	PEA_1.exe	c9ad00ca5d42e7dc
