@@ -10,6 +10,7 @@ Matrix Generator::generateRandomMatrix() {
     Matrix result;
     int num_cities;
     std::cout << "Input number of cities for matrix generation: ";
+    result.type = "Randomly Generated";
     std::cin >> num_cities;
     result.numberOfCites = num_cities;
     result.matrixTable = new int *[num_cities];

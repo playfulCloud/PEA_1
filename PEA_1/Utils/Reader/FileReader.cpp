@@ -12,6 +12,7 @@ Matrix FileReader::readFromFile() {
     std::string fileName;
     std::cin >> fileName;
     Matrix result;
+    result.type = "Read from file";
     int numberOfCities;
     std::fstream file;
     std::filesystem::path projectPath = std::filesystem::current_path();

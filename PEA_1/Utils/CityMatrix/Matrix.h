@@ -4,14 +4,14 @@
 
 #ifndef PEA_1_MATRIX_H
 #define PEA_1_MATRIX_H
-
+#include <string>
 
 class Matrix {
 public:
     int** matrixTable;
     int numberOfCites;
     void displayMatrixTable();
-
+    std::string type;
 };
 
 

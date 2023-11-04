@@ -45,6 +45,7 @@ void Menu::displayMenu() {
                 randomGraph.displayMatrixTable();
                 break;
             case 5:
+                displayAlgorithms(graph);
                 break;
             case 6:
                 break;
@@ -54,6 +55,39 @@ void Menu::displayMenu() {
         }
     }
 }
+
+
+void Menu::displayAlgorithms(Matrix matrix) {
+    std::cout <<"=========================== Algorithms menu ===========================" << std::endl;
+    std::cout <<"Matrix: " + matrix.type << std::endl;
+    int gate = 0;
+    while(gate != 5){
+        std::cout <<"Choose what do you want to do: " << std::endl;
+        std::cout <<"1 - Brute Force" << std::endl;
+        std::cout <<"2 - Branch and Bound v1" << std::endl;
+        std::cout <<"3 - Branch and Bound v2" << std::endl;
+        std::cout <<"4 - Dynamic Programming" << std::endl;
+        std::cout <<"5 - Exit" << std::endl;
+        std::cin >> gate;
+        switch (gate) {
+            case 1:
+                bruteForceImplementation->tsp(matrix.matrixTable,matrix.numberOfCites);
+                break;
+            case 2:
+                break;
+            case 3:
+                break;
+            case 4:
+                dynamicProgrammingImplementation = new DynamicProgramming_implementation(matrix.numberOfCites);
+                std::cout << "min: " << dynamicProgrammingImplementation->tsp(matrix.matrixTable,matrix.numberOfCites,0,1) << std::endl;
+                dynamicProgrammingImplementation->getCurrentPath();
+                break;
+            case 5:
+                break;
+        }
+    }
+}
+
 
 
 
