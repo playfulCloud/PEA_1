@@ -25,8 +25,8 @@ public:
     int* path;
     int size;
     std::vector<int> currentPath;
-    void solve();
-    void getCurrentPath();
+    std::vector<std::vector<int>> choice;
+    void printBestPath();
 };
 
 

@@ -19,7 +19,7 @@
 void Menu::displayMenu() {
     std::cout <<"=========================== Effective algorithm design ===========================" << std::endl;
     int gate = 0;
-    while(gate != 8){
+    while(gate != 7){
         std::cout <<"Choose what do you want to do: " << std::endl;
         std::cout <<"1 - Read data from file" << std::endl;
         std::cout <<"2 - Generate random data" << std::endl;
@@ -48,6 +48,7 @@ void Menu::displayMenu() {
                 displayAlgorithms(graph);
                 break;
             case 6:
+                displayAlgorithms(randomGraph);
                 break;
             case 7:
                 break;
@@ -74,16 +75,17 @@ void Menu::displayAlgorithms(Matrix matrix) {
                 bruteForceImplementation->tsp(matrix.matrixTable,matrix.numberOfCites);
                 break;
             case 2:
+                branchAndBoundImplementation = new BranchAndBound_Implementation(matrix.numberOfCites);
+                branchAndBoundImplementation->TSP(matrix.matrixTable);
+                branchAndBoundImplementation->printResult();
                 break;
             case 3:
                 break;
             case 4:
                 dynamicProgrammingImplementation = new DynamicProgramming_implementation(matrix.numberOfCites);
                 std::cout << "min: " << dynamicProgrammingImplementation->tsp(matrix.matrixTable,matrix.numberOfCites,0,1) << std::endl;
-                dynamicProgrammingImplementation->getCurrentPath();
                 break;
-            case 5:
-                break;
+
         }
     }
 }

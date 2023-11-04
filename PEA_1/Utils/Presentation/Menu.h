@@ -10,6 +10,7 @@
 #include "../Reader/FileReader.h"
 #include "../RandomGenerator/Generator.h"
 #include "../../Algorithms/DynamicProgramming/DynamicProgramming_implementation.h"
+#include "../../Algorithms/BranchAndBound/BranchAndBound_Implementation.h"
 
 class Menu {
 public:
@@ -17,6 +18,7 @@ public:
     void displayAlgorithms(Matrix matrix);
     BruteForce_Implementation *bruteForceImplementation;
     DynamicProgramming_implementation *dynamicProgrammingImplementation;
+    BranchAndBound_Implementation *branchAndBoundImplementation;
     Generator *generator;
     FileReader *fileReader;
     Matrix graph;

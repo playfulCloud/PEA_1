@@ -6,8 +6,30 @@
 #define PEA_1_BRANCHANDBOUND_IMPLEMENTATION_H
 
 
-class BranchAndBound_Implementation {
+#include <climits>
 
+class BranchAndBound_Implementation {
+public:
+    BranchAndBound_Implementation(int n);
+    int* final_path;
+    bool* visited;
+    int N;
+    int final_res = INT_MAX;
+    int* curr_path;
+
+    void TSPRec(int **adj, int curr_bound, int curr_weight, int level, int **curr_path);
+
+    int secondMin(int **adj, int i);
+
+    int firstMin(int **adj, int i);
+
+    void copyToFinal(int *curr_path);
+
+    void TSP(int **adj);
+
+    void TSPRec(int **adj, int curr_bound, int curr_weight, int level, int *curr_path);
+
+    void printResult();
 };
 
 

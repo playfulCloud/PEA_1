@@ -5,7 +5,6 @@
 int DynamicProgramming_implementation::tsp(int** dist, int n, int pos, int mask) {
     int ans = INT_MAX;
     if(mask == (1<<n)-1) {
-        currentPath.push_back(0); // Dodaj punkt powrotu do początkowego miasta
         return dist[pos][0];
     }
 
@@ -20,10 +19,6 @@ int DynamicProgramming_implementation::tsp(int** dist, int n, int pos, int mask)
             ans = std::min(ans, total_distance);
         }
 
-    }
-
-    if(ans != INT_MAX) {
-        currentPath.push_back(pos); // Dodaj aktualne miasto do ścieżki
     }
 
     return dp[pos][mask] = ans;

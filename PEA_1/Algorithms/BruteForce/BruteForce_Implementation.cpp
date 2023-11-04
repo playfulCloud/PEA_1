@@ -36,13 +36,17 @@ void BruteForce_Implementation::tsp(int **graph, int n) {
         }
     }
 
-    std::cout << "Najkrótsza trasa: ";
+
+    std::cout << "Minimum cost: " << min_route_length << std::endl;
+
+    std::cout << "Path taken: ";
     for (int i = 0; i < n; i++) {
-        std::cout << best_route[i] << " ";
+        std::cout << "-> "<< best_route[i] << " ";
     }
+    std::cout << "-> 0" << std::endl;
     std::cout << std::endl;
 
-    std::cout << "Długość najkrótszej trasy: " << min_route_length << std::endl;
+
 
     delete[] route;
     delete[] best_route;
