@@ -23,6 +23,7 @@ public:
     FileReader *fileReader;
     Matrix graph;
     Matrix randomGraph;
+    int** parent;
 
 
 };

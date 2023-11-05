@@ -3,6 +3,7 @@
 //
 
 #include <iostream>
+#include <algorithm>
 #include "Menu.h"
 
 /*TODO
@@ -17,17 +18,17 @@
 
 
 void Menu::displayMenu() {
-    std::cout <<"=========================== Effective algorithm design ===========================" << std::endl;
+    std::cout << "=========================== Effective algorithm design ===========================" << std::endl;
     int gate = 0;
-    while(gate != 7){
-        std::cout <<"Choose what do you want to do: " << std::endl;
-        std::cout <<"1 - Read data from file" << std::endl;
-        std::cout <<"2 - Generate random data" << std::endl;
-        std::cout <<"3 - Display read data" << std::endl;
-        std::cout <<"4 - Display randomly generated data" << std::endl;
-        std::cout <<"5 - Choose algorithm with read data" << std::endl;
-        std::cout <<"6 - Choose algorithm with randomly generated data" << std::endl;
-        std::cout <<"7 - Exit" << std::endl;
+    while (gate != 7) {
+        std::cout << "Choose what do you want to do: " << std::endl;
+        std::cout << "1 - Read data from file" << std::endl;
+        std::cout << "2 - Generate random data" << std::endl;
+        std::cout << "3 - Display read data" << std::endl;
+        std::cout << "4 - Display randomly generated data" << std::endl;
+        std::cout << "5 - Choose algorithm with read data" << std::endl;
+        std::cout << "6 - Choose algorithm with randomly generated data" << std::endl;
+        std::cout << "7 - Exit" << std::endl;
         std::cin >> gate;
         switch (gate) {
             case 1:
@@ -59,20 +60,20 @@ void Menu::displayMenu() {
 
 
 void Menu::displayAlgorithms(Matrix matrix) {
-    std::cout <<"=========================== Algorithms menu ===========================" << std::endl;
-    std::cout <<"Matrix: " + matrix.type << std::endl;
+    std::cout << "=========================== Algorithms menu ===========================" << std::endl;
+    std::cout << "Matrix: " + matrix.type << std::endl;
     int gate = 0;
-    while(gate != 5){
-        std::cout <<"Choose what do you want to do: " << std::endl;
-        std::cout <<"1 - Brute Force" << std::endl;
-        std::cout <<"2 - Branch and Bound v1" << std::endl;
-        std::cout <<"3 - Branch and Bound v2" << std::endl;
-        std::cout <<"4 - Dynamic Programming" << std::endl;
-        std::cout <<"5 - Exit" << std::endl;
+    while (gate != 5) {
+        std::cout << "Choose what do you want to do: " << std::endl;
+        std::cout << "1 - Brute Force" << std::endl;
+        std::cout << "2 - Branch and Bound v1" << std::endl;
+        std::cout << "3 - Branch and Bound v2" << std::endl;
+        std::cout << "4 - Dynamic Programming" << std::endl;
+        std::cout << "5 - Exit" << std::endl;
         std::cin >> gate;
         switch (gate) {
             case 1:
-                bruteForceImplementation->tsp(matrix.matrixTable,matrix.numberOfCites);
+                bruteForceImplementation->tsp(matrix.matrixTable, matrix.numberOfCites);
                 break;
             case 2:
                 branchAndBoundImplementation = new BranchAndBound_Implementation(matrix.numberOfCites);
@@ -82,8 +83,9 @@ void Menu::displayAlgorithms(Matrix matrix) {
             case 3:
                 break;
             case 4:
+                std::vector<int> result;
                 dynamicProgrammingImplementation = new DynamicProgramming_implementation(matrix.numberOfCites);
-                std::cout << "min: " << dynamicProgrammingImplementation->tsp(matrix.matrixTable,matrix.numberOfCites,0,1) << std::endl;
+                dynamicProgrammingImplementation->held_karp(matrix.matrixTable);
                 break;
 
         }

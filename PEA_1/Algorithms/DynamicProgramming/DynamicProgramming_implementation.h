@@ -18,15 +18,16 @@ public:
 
     DynamicProgramming_implementation(int n);
 
-    int tsp(int** dist, int n, int pos, int mask);
+//    int tsp(int** dist, int n, int pos, int mask);
     int** dp;
-    int** trace;
+
     int ans;
-    int* path;
     int size;
-    std::vector<int> currentPath;
-    std::vector<std::vector<int>> choice;
-    void printBestPath();
+    int** prev;
+    int recursive_held_karp(int **dist, int n, int pos, int mask);
+    int recursive_held_karp(int mask, int vertex, int **dist);
+
+    std::vector<int> held_karp(int **dist);
 };
 
 
