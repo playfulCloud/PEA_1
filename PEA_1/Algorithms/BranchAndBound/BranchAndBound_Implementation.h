@@ -17,19 +17,19 @@ public:
     int final_res = INT_MAX;
     int* curr_path;
 
-    void TSPRec(int **adj, int curr_bound, int curr_weight, int level, int **curr_path);
-
     int secondMin(int **adj, int i);
 
     int firstMin(int **adj, int i);
 
     void copyToFinal(int *curr_path);
 
-    void TSP(int **adj);
+    void tsp(int **adj);
 
-    void TSPRec(int **adj, int curr_bound, int curr_weight, int level, int *curr_path);
+    void tsp_rec(int **adj, int curr_bound, int curr_weight, int level, int *curr_path);
 
-    void printResult();
+    void solution(int** dist);
+    std::chrono::high_resolution_clock::time_point start;
+    std::chrono::high_resolution_clock::time_point stop;
 };
 
 

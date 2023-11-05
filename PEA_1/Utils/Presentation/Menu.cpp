@@ -77,15 +77,13 @@ void Menu::displayAlgorithms(Matrix matrix) {
                 break;
             case 2:
                 branchAndBoundImplementation = new BranchAndBound_Implementation(matrix.numberOfCites);
-                branchAndBoundImplementation->TSP(matrix.matrixTable);
-                branchAndBoundImplementation->printResult();
+                branchAndBoundImplementation->solution(matrix.matrixTable);
                 break;
             case 3:
                 break;
             case 4:
-                std::vector<int> result;
-                dynamicProgrammingImplementation = new DynamicProgramming_implementation(matrix.numberOfCites);
-                dynamicProgrammingImplementation->held_karp(matrix.matrixTable);
+                dynamicProgrammingImplementation = new DynamicProgramming_implementation(matrix.matrixTable,matrix.numberOfCites);
+                dynamicProgrammingImplementation->solution(matrix.matrixTable);
                 break;
 
         }

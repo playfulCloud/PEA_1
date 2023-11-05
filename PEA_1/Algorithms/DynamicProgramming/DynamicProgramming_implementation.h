@@ -8,26 +8,22 @@
 #define INF INT_MAX
 
 #include <vector>
+#include <chrono>
 #include "../../Utils/CityMatrix/Matrix.h"
 
 class DynamicProgramming_implementation {
 public:
-
-
-
-
-    DynamicProgramming_implementation(int n);
-
-//    int tsp(int** dist, int n, int pos, int mask);
-    int** dp;
-
-    int ans;
+    DynamicProgramming_implementation(int **dist, int n);
+    int result;
     int size;
-    int** prev;
-    int recursive_held_karp(int **dist, int n, int pos, int mask);
-    int recursive_held_karp(int mask, int vertex, int **dist);
-
-    std::vector<int> held_karp(int **dist);
+    std::vector<std::vector<int>> matrix;
+    std::vector<std::vector<std::vector<int>>> paths;
+    std::vector<std::vector<int>> costs;
+    int visited_all_mask;
+    int tsp(int mask, int vertex, int **dist);
+    void solution(int **dist);
+    std::chrono::high_resolution_clock::time_point start;
+    std::chrono::high_resolution_clock::time_point stop;
 };
 
 

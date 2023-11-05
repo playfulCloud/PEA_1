@@ -20,6 +20,10 @@ int BruteForce_Implementation::routeLength(int **graph, int *route, int n) {
 }
 
 void BruteForce_Implementation::tsp(int **graph, int n) {
+    long long int time = 0;
+    std::chrono::high_resolution_clock::time_point start;
+    std::chrono::high_resolution_clock::time_point stop;
+    start = std::chrono::high_resolution_clock::now();
     int *route = new int[n];
     for (int i = 0; i < n; i++) {
         route[i] = i;
@@ -37,6 +41,9 @@ void BruteForce_Implementation::tsp(int **graph, int n) {
     }
 
 
+
+    stop = std::chrono::high_resolution_clock::now();
+    time += std::chrono::duration_cast<std::chrono::nanoseconds>(stop - start).count();
     std::cout << "Minimum cost: " << min_route_length << std::endl;
 
     std::cout << "Path taken: ";
@@ -44,9 +51,7 @@ void BruteForce_Implementation::tsp(int **graph, int n) {
         std::cout << "-> "<< best_route[i] << " ";
     }
     std::cout << "-> 0" << std::endl;
-    std::cout << std::endl;
-
-
+    std::cout << "time: " << time << "ns" << std::endl;
 
     delete[] route;
     delete[] best_route;
