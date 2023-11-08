@@ -17,7 +17,7 @@ Matrix FileReader::readFromFile() {
     std::fstream file;
     std::filesystem::path projectPath = std::filesystem::current_path();
     projectPath = projectPath.parent_path(); // Uzyskanie ścieżki do katalogu nadrzędnego
-    std::string filePath = projectPath.string() + "\\PEA_1\\data\\" + fileName;
+    std::string filePath = projectPath.string() + "/PEA_1/data/" + fileName;
     std::cout << filePath << std::endl;
     file.open(filePath, std::ios::in);
 

@@ -3,7 +3,7 @@
 #include <iostream>
 #include <valarray>
 #include <chrono>
-
+#include <climits>
 
 DynamicProgramming_implementation::DynamicProgramming_implementation(int **dist, int n) {
     size = n;

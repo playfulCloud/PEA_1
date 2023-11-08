@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="PEA_1"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/playfulCloud/CLionProjects/PEA_1/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/playfulCloud/CLionProjects/PEA_1/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/playfulCloud/CLionProjects/PEA_1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/playfulCloud/CLionProjects/PEA_1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/playfulCloud/CLionProjects/PEA_1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="PEA_1">
+				<Option output="/home/playfulCloud/CLionProjects/PEA_1/cmake-build-debug/PEA_1" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/playfulCloud/CLionProjects/PEA_1/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../include/c++/13.2.1"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../include/c++/13.2.1/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../include/c++/13.2.1/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/playfulCloud/CLionProjects/PEA_1/cmake-build-debug/Makefile&quot;  VERBOSE=1 PEA_1"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/playfulCloud/CLionProjects/PEA_1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/playfulCloud/CLionProjects/PEA_1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/playfulCloud/CLionProjects/PEA_1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="PEA_1/fast">
+				<Option output="/home/playfulCloud/CLionProjects/PEA_1/cmake-build-debug/PEA_1" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/playfulCloud/CLionProjects/PEA_1/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../include/c++/13.2.1"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../include/c++/13.2.1/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../include/c++/13.2.1/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/playfulCloud/CLionProjects/PEA_1/cmake-build-debug/Makefile&quot;  VERBOSE=1 PEA_1/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/playfulCloud/CLionProjects/PEA_1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/playfulCloud/CLionProjects/PEA_1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/playfulCloud/CLionProjects/PEA_1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/playfulCloud/CLionProjects/PEA_1/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/playfulCloud/CLionProjects/PEA_1/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/playfulCloud/CLionProjects/PEA_1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/playfulCloud/CLionProjects/PEA_1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/playfulCloud/CLionProjects/PEA_1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/playfulCloud/CLionProjects/PEA_1/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/playfulCloud/CLionProjects/PEA_1/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/playfulCloud/CLionProjects/PEA_1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/playfulCloud/CLionProjects/PEA_1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/playfulCloud/CLionProjects/PEA_1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/playfulCloud/CLionProjects/PEA_1/PEA_1/Algorithms/BranchAndBound/BranchAndBound_Implementation.cpp">
+			<Option target="PEA_1"/>
+		</Unit>
+		<Unit filename="/home/playfulCloud/CLionProjects/PEA_1/PEA_1/Algorithms/BranchAndBound/BranchAndBound_Implementation.h">
+			<Option target="PEA_1"/>
+		</Unit>
+		<Unit filename="/home/playfulCloud/CLionProjects/PEA_1/PEA_1/Algorithms/BruteForce/BruteForce_Implementation.cpp">
+			<Option target="PEA_1"/>
+		</Unit>
+		<Unit filename="/home/playfulCloud/CLionProjects/PEA_1/PEA_1/Algorithms/BruteForce/BruteForce_Implementation.h">
+			<Option target="PEA_1"/>
+		</Unit>
+		<Unit filename="/home/playfulCloud/CLionProjects/PEA_1/PEA_1/Algorithms/DynamicProgramming/DynamicProgramming_implementation.cpp">
+			<Option target="PEA_1"/>
+		</Unit>
+		<Unit filename="/home/playfulCloud/CLionProjects/PEA_1/PEA_1/Algorithms/DynamicProgramming/DynamicProgramming_implementation.h">
+			<Option target="PEA_1"/>
+		</Unit>
+		<Unit filename="/home/playfulCloud/CLionProjects/PEA_1/PEA_1/Utils/CityMatrix/Matrix.cpp">
+			<Option target="PEA_1"/>
+		</Unit>
+		<Unit filename="/home/playfulCloud/CLionProjects/PEA_1/PEA_1/Utils/CityMatrix/Matrix.h">
+			<Option target="PEA_1"/>
+		</Unit>
+		<Unit filename="/home/playfulCloud/CLionProjects/PEA_1/PEA_1/Utils/Presentation/Menu.cpp">
+			<Option target="PEA_1"/>
+		</Unit>
+		<Unit filename="/home/playfulCloud/CLionProjects/PEA_1/PEA_1/Utils/Presentation/Menu.h">
+			<Option target="PEA_1"/>
+		</Unit>
+		<Unit filename="/home/playfulCloud/CLionProjects/PEA_1/PEA_1/Utils/RandomGenerator/Generator.cpp">
+			<Option target="PEA_1"/>
+		</Unit>
+		<Unit filename="/home/playfulCloud/CLionProjects/PEA_1/PEA_1/Utils/RandomGenerator/Generator.h">
+			<Option target="PEA_1"/>
+		</Unit>
+		<Unit filename="/home/playfulCloud/CLionProjects/PEA_1/PEA_1/Utils/Reader/FileReader.cpp">
+			<Option target="PEA_1"/>
+		</Unit>
+		<Unit filename="/home/playfulCloud/CLionProjects/PEA_1/PEA_1/Utils/Reader/FileReader.h">
+			<Option target="PEA_1"/>
+		</Unit>
+		<Unit filename="/home/playfulCloud/CLionProjects/PEA_1/PEA_1/Utils/Timer/TimeCounter.cpp">
+			<Option target="PEA_1"/>
+		</Unit>
+		<Unit filename="/home/playfulCloud/CLionProjects/PEA_1/PEA_1/Utils/Timer/TimeCounter.h">
+			<Option target="PEA_1"/>
+		</Unit>
+		<Unit filename="/home/playfulCloud/CLionProjects/PEA_1/main.cpp">
+			<Option target="PEA_1"/>
+		</Unit>
+		<Unit filename="/home/playfulCloud/CLionProjects/PEA_1/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

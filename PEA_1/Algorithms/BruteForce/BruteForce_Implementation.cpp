@@ -66,8 +66,7 @@ bool BruteForce_Implementation::nextPermutation(int *route, int n) {
     if (i <= 0) {
         return false;
     }
-    int j = n - 1;
-    while (route[j] <= route[i - 1]) {
+    int j = n - 1;    while (route[j] <= route[i - 1]) {
         j--;
     }
     swap(route[i - 1], route[j]);

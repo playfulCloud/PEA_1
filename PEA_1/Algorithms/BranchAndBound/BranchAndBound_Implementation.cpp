@@ -1,4 +1,4 @@
-//
+    //
 // Created by Jakub on 27.10.2023.
 //
 
@@ -60,6 +60,10 @@ void BranchAndBound_Implementation::tsp_rec(int **adj, int curr_bound, int curr_
             else
                 curr_bound -= ((secondMin(adj, curr_path[level - 1]) +
                                 firstMin(adj, i)) / 2);
+//            if (level == 1)
+//                curr_bound -= (firstMin(adj, curr_path[level - 1]) + firstMin(adj, i));
+//            else
+//                curr_bound -= (secondMin(adj, curr_path[level - 1]) + firstMin(adj, i));
             if (curr_bound + curr_weight < final_res) {
                 curr_path[level] = i;
                 visited[i] = true;
@@ -108,7 +112,7 @@ void BranchAndBound_Implementation::solution(int **dist) {
     for (int i = 0; i <= N; i++) {
         std::cout << "->" << final_path[i] << ' ';
     }
-    std::cout << "-> 0" << std::endl;
+    std::cout << std::endl;
     std::cout << "time: " << time << "ns" << std::endl;
 }
 
